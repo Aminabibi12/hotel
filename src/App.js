@@ -5,6 +5,7 @@ import "./App.css";
 import Heading from "./Heading";
 import TouristInfoCards from "./TouristInfoCards";
 import Footer from "./Footer";
+import Restaurant from "./Restaurant";
 
 const App = () => {
 
@@ -16,9 +17,11 @@ const App = () => {
      <Heading />
      <TouristInfoCards />
       <Bookings />
+      <Restaurant />
       <Footer array = {array} />
     </div>
   );
 };
 
 export default App;
+
